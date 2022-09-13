@@ -16,7 +16,7 @@ public class BinaryNumbers
 		System.out.println("10\t\t" + Integer.toBinaryString(10));
 		System.out.println("11\t\t" + Integer.toBinaryString(11));
 		System.out.println("12\t\t" + Integer.toBinaryString(12));
-		System.out.println("s13\t\t" + Integer.toBinaryString(13));
+		System.out.println("13\t\t" + Integer.toBinaryString(13));
 		System.out.println("14\t\t" + Integer.toBinaryString(14));
 		System.out.println("15\t\t" + Integer.toBinaryString(15));
 		System.out.println("16\t\t" + Integer.toBinaryString(16));
