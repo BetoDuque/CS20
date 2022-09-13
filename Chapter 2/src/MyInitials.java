@@ -8,7 +8,7 @@ public class MyInitials
 		System.out.print("|\t|\n");
 		System.out.print("|\t|\n");
 		System.out.print("|\t/\n");
-		System.out.print("\t-\n");
+		System.out.print("---------\n");
 		System.out.print("|\t\\");
 		System.out.print("\n|\t|\n");
 		System.out.print("|\t|\n");
@@ -16,7 +16,7 @@ public class MyInitials
 		System.out.print("---------\n");
 		System.out.print("-------\\");
 		System.out.print("\n|\t\\");
-		System.out.print("\n|\t|\n");
+		System.out.print("|\t|\n");
 		System.out.print("|\t|\n");
 		System.out.print("|\t|\n");
 		System.out.print("|\t|\n");
