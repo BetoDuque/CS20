@@ -11,7 +11,7 @@ public class Digits
 		int digit = Scan.nextInt();
 		
 		int ones = digit%10;
-		int tens = digit - ones;
+		int tens = digit/10;
 		System.out.println("Ones digit: " + ones);
 		System.out.println("Tens digit: " + tens);
 	}
