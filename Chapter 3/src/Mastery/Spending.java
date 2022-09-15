@@ -8,26 +8,27 @@ public class Spending
 	public static void main(String[] args) 
 	{
 		Scanner Scan = new Scanner(System.in);
+		DecimalFormat df = new DecimalFormat("#.##");
 		
 		System.out.println("Please enter the amount spent last month on the following items:");
 		System.out.print("Food: ");
-		int Food = Scan.nextInt();
+		double Food = Scan.nextDouble();
 		System.out.print("Clothing: ");
-		int Clothing = Scan.nextInt();
+		double Clothing = Scan.nextDouble();
 		System.out.print("Entertainment: ");
-		int Entertainment = Scan.nextInt();
+		double Entertainment = Scan.nextDouble();
 		System.out.print("Rent: ");
-		int Rent = Scan.nextInt();
+		double Rent = Scan.nextDouble();
 		
-		int total = Food + Clothing + Entertainment + Rent;
-		double foodPercent = (((total - Food)/total)-1*-1)*100;
-		double clothingPercent = (((total - Clothing)/total)-1*-1*)100;
-		double entertainmentPercent = (((total - Entertainment)/total)-1*-1)*100;
-		double rentPercent = (((total - Rent)/total)-1*-1*100;
-		System.out.println("Budget spend on food: " + foodPercent);
-		System.out.println("Budget spend on Clothing: " + clothingPercent);
-		System.out.println("Budget spend on food: " + entertainmentPercent);
-		System.out.println("Budget spend on food: " + rentPercent);
+		double total = Food + Clothing + Entertainment + Rent;
+		double foodPercent = Food/total*100; 
+		double clothingPercent = Clothing/total*100;
+		double entertainmentPercent = Entertainment/total*100;
+		double rentPercent = Rent/total*100;
+		System.out.println("Budget spend on food: " + df.format(foodPercent) + ("%"));
+		System.out.println("Budget spend on Clothing: " + df.format(clothingPercent) + ("%"));
+		System.out.println("Budget spend on Entertainment: " + df.format(entertainmentPercent) + ("%"));
+		System.out.println("Budget spend on Rent: " + df.format(rentPercent) + ("%"));
 		
 	}
 
