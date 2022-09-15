@@ -9,7 +9,7 @@ public class DistanceP1
 		double s2 = 10.6;
 		double s3 = 5.8;
 		double totalDistance = s1 + s2 + s3;
-		System.out.print(totalDistance); // floating point inaccuracies will always have a really long decimal
+		System.out.print("The total distance is: " + totalDistance); // floating point inaccuracies will always have a really long decimal
 	}
 
 }
